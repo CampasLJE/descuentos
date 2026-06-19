@@ -1,3 +1,4 @@
+# importacion de librerias
 import pytest
 from calc_descuento import descuento
 
