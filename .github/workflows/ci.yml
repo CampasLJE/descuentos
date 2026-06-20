@@ -4,6 +4,7 @@ on:
   push:
     branches: [ "main" ]
 
+# permisos para activacion de github pages
 permissions:
   contents: write
   pages: write
@@ -33,6 +34,7 @@ jobs:
       run: |
         pytest
     
+    # despliegue de github pages
     - name: Desplegar a Github
       uses: peaceiris/actions-gh-pages@v3
       with:
